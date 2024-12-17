@@ -1,0 +1,13 @@
+{
+    "require": {
+        "rubix/ml": "^2.5.1",
+        "guzzlehttp/guzzle": "^7.8",
+        "louisauthie/php2plotly": "dev-master",
+        "rubix/server": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chap3\\": "chap3/"
+        }
+    }
+}
