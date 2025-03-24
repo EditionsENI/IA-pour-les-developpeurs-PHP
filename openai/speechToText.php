@@ -64,11 +64,11 @@ echo "<pre>";
 print_r($result);
 echo "</pre>";
 
-//Récupération des données interessantes du vol
+//Retrieval of the main flight information
 $endpoint = 'https://api.openai.com/v1/chat/completions';
 
 $requestBody = [
-    'model' => 'gpt-4o-mini', // Assurez-vous que le modèle est valide
+    'model' => 'gpt-4o-mini', // Make sure that the model is still valid
     'messages' => [
         [
             'role' => 'system',
