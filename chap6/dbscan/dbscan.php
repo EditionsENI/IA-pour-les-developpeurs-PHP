@@ -24,8 +24,8 @@ require_once __DIR__ . '../../../vendor/autoload.php';
 
 $generator = new Agglomerate([
     'blob1' => new Blob([5, 7], 1.0),
-    'cicle1' => new Circle(2, -4, 1.0, 0.3),
-    'cicle2' => new Circle(2, -4, 4.0, 0.3),
+    'circle1' => new Circle(2, -4, 1.0, 0.3),
+    'circle2' => new Circle(2, -4, 4.0, 0.3),
     'halfmoon1' => new HalfMoon(-2.0, 6.0, 1.5),
     'halfmoon2' => new HalfMoon(-2.0, 4.5, 1.5, 270),
 ], [
